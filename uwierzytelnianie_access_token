@@ -1,0 +1,7 @@
+curl --location --request POST 'https://mcl.opi.org.pl/auth/realms/OPI/protocol/openid-connect/token'
+--header 'Content-Type: application/x-www-form-urlencoded'
+--data-urlencode 'client_id=polon2'
+--data-urlencode 'grant_type=password'
+--data-urlencode 'username=nazwaUżytkownika'
+--data-urlencode 'password=hasłoUżytkownika'
+--data-urlencode 'totp=999999'
